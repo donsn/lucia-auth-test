@@ -1,8 +1,9 @@
+import { auth } from "@/services/auth";
 
 // IMPORTANT!
 declare module "lucia" {
 	interface Register {
-		Lucia: typeof lucia;
+		Lucia: typeof auth;
 	}
 }
 

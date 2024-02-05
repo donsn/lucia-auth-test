@@ -117,11 +117,6 @@
   resolved "https://registry.yarnpkg.com/@lucia-auth/adapter-mongodb/-/adapter-mongodb-1.0.1.tgz#f23f714181110692ef5a713e627590e171e79a1e"
   integrity sha512-EHanjFmcUiJrlz4m6lrUOQRo97iJVW8GG7FWUBdF75VJXxxMfJSRTSE29up4e4ziInXJSXTsoYli9y6IfAlcvg==
 
-"@lucia-auth/adapter-mongoose@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@lucia-auth/adapter-mongoose/-/adapter-mongoose-3.0.1.tgz#1fd7d4d433f403a1ccd32d3b6ff90a7c11a49fd5"
-  integrity sha512-l5UlZVYMUAtVpBwXsd14mE26QeSwcbAaWXLg1TXh394uytD5ednoAZhqFmQLUJufeDxhQ6FhRooJIXzCRupI8Q==
-
 "@mongodb-js/saslprep@^1.1.0":
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@mongodb-js/saslprep/-/saslprep-1.1.4.tgz#24ec1c4915a65f5c506bb88c081731450d91bb1c"
