@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function componentName() {
+export default function Page() {
   return (
     <div>
     This is the dashboard
