@@ -25,8 +25,14 @@ export const loginUser = async (email: string, password: string) => {
 
 export const validateSession = async () => {
     const sessionId = cookies().get(auth.sessionCookieName)?.value;
-    if (!sessionId) return false;
+    if (!sessionId) {
+        console.log("No session cookie found");
+        return false;
+    }
     const session = await auth.validateSession(sessionId);
-    if (!session) return false;
+    if (!session){
+        console.log("Invalid session");
+        return false;
+    }
     return true;
 }
