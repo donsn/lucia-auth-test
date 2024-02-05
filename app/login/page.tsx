@@ -6,7 +6,7 @@ export default async function Page() {
 		<>
 			<h1>Sign in</h1>
 			<form action={login}>
-				<label htmlFor="email">Username</label>
+				<label htmlFor="email">Email</label>
 				<input name="email" id="email" />
 				<br />
 				<label htmlFor="password">Password</label>

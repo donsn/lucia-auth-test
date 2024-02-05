@@ -15,7 +15,7 @@ export const signupUser = async (user: SignUpModel) => {
 export const loginUser = async (email: string, password: string) => {
     const user = await User.findOne({ email: email.toLowerCase() });
     if (!user) return false;
-    const isPasswordValid = await passwordUtil.verify(password, user.hashed_password || "" );
+    const isPasswordValid = await passwordUtil.verify(user.hashed_password || "" , password);
     if (!isPasswordValid) return false;
     const session = await auth.createSession(user._id, {});
     const sessionCookie = await auth.createSessionCookie(session.id);
